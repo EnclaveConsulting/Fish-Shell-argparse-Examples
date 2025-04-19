@@ -2,11 +2,9 @@
 
 This is a collection of [argparse](https://fishshell.com/docs/current/cmds/argparse.html#flag-value-validation) and [argv](https://fishshell.com/docs/current/language.html#variables-argv) examples for the [Fish](https://fishshell.com) shell to help new scripters understand how to handle arguments.
 
-If you are going to read all of the example scripts, read them in numerical order. 
+If you are just getting started with Fish, view the scripts in numerical order. Later examples tend to build on earlier ones.
 
-Most of the argparse examples are given for functions, but they should work for whole scripts too when you copy and paste the code out of the function (just remember that sometimes you'll need to change the [scope](https://fishshell.com/docs/current/language.html#variable-scope) of some of the variables in the examples).
-
+In some of the examples, there are variables with `--function` scope, but this scope can be [changed](https://fishshell.com/docs/current/language.html#variable-scope) when you want to pass arguments into a script instead of passing arguments into a function.
 
 ## License
-
 [Unlicense](LICENSE.md)
