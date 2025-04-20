@@ -8,3 +8,6 @@ function foofunc
 end
 
 foofunc -x 3 -y 5
+
+# The "=" postfix in "x=" makes an argument required.
+# The $_flag_x variable is automatically created by Fish.
