@@ -7,3 +7,7 @@ function foofunc
 end
 
 foofunc -x 3 -x 5 -x 7
+
+# The "=+" postfix in "x=+" permits multiple uses in one command.
+# The $_flag_x variable is automatically created by Fish and
+# it will contain "3 5 7" in the above example.
