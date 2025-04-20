@@ -15,5 +15,6 @@ foofunc --year 1979
 foofunc --year 17
 foofunc --year 'Soma'
 
-
-# The _validate_int function is built into fish.
+# Note the "!" in argparse's option string.
+# The "!" is followed by the name of a validation function.
+# The _validate_int function is built into Fish.
