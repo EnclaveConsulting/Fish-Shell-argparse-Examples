@@ -11,3 +11,6 @@ foofunc 1 2
 foofunc 1 2 3
 foofunc 1 2 3 4
 foofunc 1 2 3 4 5
+
+# argparse can be used just to manage $argv.
+# argparse-defined options are not required.
