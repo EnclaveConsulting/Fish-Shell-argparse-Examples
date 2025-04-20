@@ -15,3 +15,5 @@ foofunc
 
 # Use of argparse is not mandatory.
 # $argv collects all arguments not processed by argparse.
+# $argv is a list and so it's elements may be accessed
+# by their index numbers in the list, e.g., $argv[1].
