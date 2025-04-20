@@ -14,3 +14,8 @@ function foofunc
 end
 
 foofunc --year=1979 
+
+# Note the "!" in argparse's option string.
+# The "!" is followed by the name of a validation function.
+# Inside the validation function, variables are automatically created.
+# The validation function must return either zero (success) or non-zero (fail).
