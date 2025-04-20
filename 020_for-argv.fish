@@ -7,3 +7,6 @@ function foofunc
 end
 
 foofunc 3 5 7
+
+# Use of argparse is not mandatory.
+# $argv collects all arguments not processed by argparse.
