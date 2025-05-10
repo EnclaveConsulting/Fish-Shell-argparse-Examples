@@ -11,4 +11,3 @@ Many more examples (and lots of friendly people) can be found in [StackExchange]
 Never played with the Fish shell before?  Check out this [tutorial](https://fishshell.com/docs/current/tutorial.html) or see this YouTube [video](https://www.youtube.com/watch?v=lzTDo1KsL-I).
 
 ## License
-[Unlicense](LICENSE.md)
