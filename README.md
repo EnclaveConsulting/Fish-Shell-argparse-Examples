@@ -9,3 +9,6 @@ In some of the examples, there are variables with `--function` scope, but this s
 Many more examples (and lots of friendly people) can be found in [StackExchange](https://unix.stackexchange.com/questions/tagged/fish) and [Reddit](https://www.reddit.com/r/fishshell/).
 
 Never played with the Fish shell before?  Check out this [tutorial](https://fishshell.com/docs/current/tutorial.html) or see this YouTube [video](https://www.youtube.com/watch?v=lzTDo1KsL-I).
+
+# License
+0BSD
