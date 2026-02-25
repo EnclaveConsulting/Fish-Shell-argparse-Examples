@@ -44,3 +44,17 @@ foofunc
 # line is added above each of the calls to fish_opt while filling the variable.
 # Note that argparse does not have to be the first line of a function or script.
 # Note that the above function (foofunc) runs without error without any arguments.
+
+# Starting with fish 4.1.0 (released 27.Sep.2025) the $argv_opts variable 
+# stores all options and arguments as a single string. The "fish_opt --delete" 
+# command can be used to remove an option and its argument from $argv_opts;
+# for example:
+#   set options $options (fish_opt --short y --long year --optional-val --delete)
+# which will postfix an ampersand (&) to the flag, such as "y/year=?&", to
+# indicate to fish that the corresponding option and argument, if present, 
+# should not be included in $argv_opts when the function is called.
+
+# Also starting with fish 4.1.0, a "--short" name is no longer required, provided
+# that a "--long" option name is given with two or more characters, and 
+# "--validate" can be used to provide a fish script to validate values. 
+
